@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+font-family: 'Open Sans', sans-serif;
+
+}
+.he-con{
+color: #181818;
+font-size: 45px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+nav span{
+    color: #FD6E0A;
+}
+.primary-btn{
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    margin-left: 13px;
+    color:#474747;
+     font-size: 20px;
+     font-style: normal;
+     line-height: normal; 
+     text-transform: uppercase;   
+
+}
+nav ul li{
+    margin-right: 50px;
+    font-size: 20px;
+}
