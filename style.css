@@ -16,8 +16,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    margin: 0px 200px;
+    padding: 6px 0;
 
+}
+.header{
+    background-color: #FFF8F3;
 }
 nav span{
     color: #FD6E0A;
@@ -30,7 +34,7 @@ nav span{
     font-size: 20px;
     font-weight: 700;
     color: white;
-    padding: 18px 35px;
+    padding: 12px 30px;
 
 }
 nav > ul {
@@ -51,4 +55,58 @@ nav ul li a{
 nav ul li{
     margin-right: 50px;
     font-size: 20px;
+}
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 0px 160px;
+    align-items: center;
+    background-image: url("./img/header_bg.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+}
+
+.bannar-left{
+
+}
+.bannar-right{
+
+}
+.bannar-left h3{
+  color:  #474747;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+}
+.bannar-right img{
+
+}
+.bannar-left h2{
+    color: #181818;
+     font-size: 85px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+.bannar-left p {
+    color: #757575;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    margin-bottom: 10px;
+}
+.primary-bt {
+    color: #FD6E0A;
+    border: none;
+    text-transform: capitalize;
+    padding: 12px;
+    font-size: 17px;
+    border: 1px solid #FD6E0A;
+    background: none;
+    margin-left: 18px;
+    border-radius: 5px;
 }
