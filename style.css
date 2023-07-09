@@ -246,3 +246,60 @@ nav ul li{
     color: white;
     line-height: 37px;
 }
+.fo-main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF8F3;
+    padding: 100px 0px;
+
+}
+
+.fo-left h4 {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.fo-left p {
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+.fo-left li{
+    list-style: none;
+    display: inline-block;
+
+}
+.fo-left li a{
+    display: inline-block;
+    color: #FD6E0A;
+    margin-right: 8px;
+
+
+}
+.fo-right h3{
+     font-size: 25px;
+     margin-bottom: 12px;
+     text-transform: uppercase;
+}
+.for {
+    border: none;
+    padding: 17px;
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 19px;
+}
+.fo-last{
+    text-align: center;
+    padding: 10px;
+
+}
+.for-m {
+    border: none;
+    padding: 17px;
+    margin-bottom: 16px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 19px;
+    height: 100px;
+}
