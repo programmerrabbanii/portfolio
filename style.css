@@ -157,7 +157,7 @@ nav ul li{
     display: flex;
     justify-content: space-evenly;
     padding: 60px 100px;
-    gap: 33px;
+    gap: 50px;
 }
 .what-box img {
     margin-bottom: 10px;
@@ -167,4 +167,82 @@ nav ul li{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 30px;
     border-radius: 5px;
+}
+.resume-hed {
+    text-align: center;
+    font-size: size;
+    font-size: 34px;
+    text-transform: capitalize;
+}
+
+.resume-main {
+    display: flex;
+    padding: 100px;
+    gap: 250px;
+}
+.resume-left h3 {
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.resume-left p {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.resume-box h4{
+    font-size: 17px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.resume-box p{
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+
+}
+.ex-con{
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+.ed-con {
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.resume-left{
+    padding: 11px  0;
+}
+.resume-box hr {
+    margin-top: 23px;
+    width: 104%;
+    margin-bottom: 23px;
+}
+.resume-left hr {
+    margin-top: 23px;
+    width: 104%;
+}
+.btn-f {
+    text-align: center;
+    margin-top: -77px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: none;
+    background: #FD6E0A;
+    width: 133px;
+    margin: auto;
+    height: 46px;
+    margin-top: -52px;
+    border-radius: 8px;
+    color: white;
+    line-height: 37px;
 }
